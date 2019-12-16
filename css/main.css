@@ -1,0 +1,10 @@
+@import "reset.css";
+@import "fonts.css";
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---- */

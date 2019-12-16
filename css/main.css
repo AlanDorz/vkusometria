@@ -8,3 +8,40 @@
 }
 
 /* ---- */
+
+body {
+  background-color: #FFF1D9;
+  font-family: 'Futura PT';
+  font-weight: 500;
+}
+
+header {
+  height: 1080px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 130px;
+}
+
+header h1 {
+  padding-top: 40vh;
+}
+
+header img {
+  mix-blend-mode: multiply;
+}
+
+.header__img_b {
+transform: translateX(-98px) translateY(-348px);
+}
+.header__img_k {
+transform: translateX(3px) translateY(-158px);
+}
+.header__img_y {
+transform: translateX(85px) translateY(-270px);
+}
+.header__img_c {
+transform: translateX(97px) translateY(-241px);
+}

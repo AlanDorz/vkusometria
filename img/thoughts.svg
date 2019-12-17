@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="737px" height="502px" viewBox="0 0 737 502" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>thoughts</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M500.478273,282.632728 C500.826777,403.518781 403.742149,501.2322 283.631755,500.883687 C163.523304,500.533312 65.8721179,402.253333 65.5217325,281.36728 C65.1732335,160.483181 162.257856,62.7678081 282.366308,63.1163147 C402.476701,63.4666957 500.127893,161.748629 500.478273,282.632728" id="path-1"></path>
+        <path d="M415.873004,235.095164 C416.200703,335.718497 335.488019,417.022689 235.594355,416.694981 C135.702307,416.365293 54.4567004,334.528176 54.1270006,233.904843 C53.7993069,133.283137 134.511986,51.977318 234.404034,52.3050205 C334.297698,52.6347145 415.54331,134.473458 415.873004,235.095164" id="path-3"></path>
+        <path d="M183.859066,103.835227 C184.043488,148.351175 148.439776,184.288097 104.33487,184.103669 C60.2306762,183.917818 24.3267958,147.680725 24.1409367,103.164777 C23.9565182,58.6495489 59.5602263,22.7119066 103.66442,22.8963326 C147.769327,23.0821858 183.67321,59.3199988 183.859066,103.835227" id="path-5"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IMac-21,5-Copy" transform="translate(-225.000000, -4304.000000)">
+            <g id="thoughts" transform="translate(166.000000, 4240.000000)">
+                <g id="an-apple-copy-7">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFF1D9" style="mix-blend-mode: multiply;" transform="translate(283.000003, 282.000001) rotate(-249.000000) translate(-283.000003, -282.000001) " xlink:href="#path-1"></use>
+                </g>
+                <g id="an-apple-copy-8" transform="translate(378.000000, 122.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFF1D9" style="mix-blend-mode: multiply;" transform="translate(235.000002, 234.500001) rotate(-249.000000) translate(-235.000002, -234.500001) " xlink:href="#path-3"></use>
+                </g>
+                <g id="an-apple-copy-9" transform="translate(36.000000, 382.000000)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFF1D9" style="mix-blend-mode: multiply;" transform="translate(104.000001, 103.500001) rotate(-249.000000) translate(-104.000001, -103.500001) " xlink:href="#path-5"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

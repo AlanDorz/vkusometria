@@ -269,7 +269,11 @@ section p {
   }
 }
 
-.section-4__div__img-mouth {
+.hover_animation:hover {
+  z-index: 2;
+}
+
+.hover_animation:hover .section-4__div__img-mouth {
   animation: eating 1s ease-in-out 10;
 }
 
@@ -282,7 +286,7 @@ section p {
   }
 }
 
-.section-4 div {
+.hover_animation:hover .section-4 div {
   animation: run 4s ease-in-out 2;
 }
 
@@ -308,19 +312,19 @@ section p {
   }
 }
 
-.section-4__img-5-angle_1 {
+.hover_animation:hover .section-4__img-5-angle_1 {
   animation: disappear_1 4s ease-in-out 2;
 }
-.section-4__img-6-angle_2 {
+.hover_animation:hover .section-4__img-6-angle_2 {
   animation: disappear_2 4s ease-in-out 2;
 }
-.section-4__img-5-angle_3 {
+.hover_animation:hover .section-4__img-5-angle_3 {
   animation: disappear_3 4s ease-in-out 2;
 }
-.section-4__img-6-angle_4 {
+.hover_animation:hover .section-4__img-6-angle_4 {
   animation: disappear_4 4s ease-in-out 2;
 }
-.section-4__img-5-angle_5 {
+.hover_animation:hover .section-4__img-5-angle_5 {
   animation: disappear_5 4s ease-in-out 2;
 }
 
@@ -394,37 +398,6 @@ section p {
     opacity: 1
   }
 }
-
-/* @keyframes disappear {
-  from {
-    opacity: 1;
-  }
-  1% {
-    opacity: 0;
-  }
-  2% {
-    transition: translateY(-500px);
-  }
-  3% {
-    opacity: 0;
-  }
-  4% {
-    opacity: 1;
-    transform: rotate(90deg);
-  }
-  90% {
-    opacity: 1;
-    transform: rotate(90deg);
-    transition: translateY(-500px);
-  }
-  98% {
-    transform: translateY(30px);
-  }
-  100% {
-    transform: translateY(0);
-    transform: rotate(0);
-  }
-} */
 
 
 

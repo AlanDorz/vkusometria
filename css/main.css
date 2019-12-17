@@ -15,6 +15,7 @@ body {
   font-weight: 500;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 header {
@@ -85,7 +86,7 @@ section p {
 .section-2__img-k {
   position: absolute;
   bottom: 85px;
-  right: 735px;
+  right: 975px;
   width: 1285px;
   height: 1059px;
   z-index: -1;
@@ -93,8 +94,8 @@ section p {
 
 .section-2__img-atom {
   position: absolute;
-  top: 166px;
-  right: 33px;
+  top: 125px;
+  right: 285px;
   width: 777px;
   height: 790px;
   z-index: -1;
@@ -102,13 +103,33 @@ section p {
 
 .section-2__img-triangle {
   position: absolute;
-  bottom: -740px;
-  left: -90px;
-  width: 2343px;
+  bottom: -550px;
+  left: -330px;
+  width: 2342,76px;
   height: 2628px;
   z-index: -2;
 }
 
+.section-3 {
+  padding-top: 306px;
+  padding-left: 171px;
+}
+
+.section-3__img-fabric {
+  position: absolute;
+  top: -230px;
+  right: -55px;
+  width: 1191px;
+  height: 1226px;
+}
+
+.section-3__img-meal {
+  position: absolute;
+  bottom: 335px;
+  left: 294px;
+  width: 698px;
+  height: 131px;
+}
 
 
 

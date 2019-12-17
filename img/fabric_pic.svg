@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1051px" height="697px" viewBox="0 0 1051 697" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>fabric</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IMac-21,5-Copy" transform="translate(-845.000000, -3366.000000)">
+            <g id="fabric" transform="translate(84.000000, 3307.000000)">
+                <g transform="translate(623.000000, 0.000000)">
+                    <g id="Group-423-Copy-2" transform="translate(595.500000, 642.500000) rotate(58.000000) translate(-595.500000, -642.500000) translate(187.000000, 196.000000)">
+                        <polygon id="Fill-418" fill="#FFCC66" style="mix-blend-mode: multiply;" points="78 748.914251 259.93615 893 727 144.085749 545.062678 0"></polygon>
+                        <polygon id="Fill-421" fill="#FF97D3" style="mix-blend-mode: multiply;" points="0 2 417.380885 645 817 2"></polygon>
+                    </g>
+                    <polygon id="Fill-414-Copy-4" fill="#FFC056" transform="translate(655.500000, 109.000000) rotate(25.000000) translate(-655.500000, -109.000000) " points="726 196 585 110.844005 725.946767 22"></polygon>
+                    <polygon id="Fill-414-Copy-5" fill="#FFC056" transform="translate(582.500000, 266.000000) rotate(25.000000) translate(-582.500000, -266.000000) " points="653 353 512 267.844005 652.946767 179"></polygon>
+                    <polygon id="Fill-414-Copy-6" fill="#FFC056" transform="translate(510.500000, 421.000000) rotate(25.000000) translate(-510.500000, -421.000000) " points="581 508 440 422.844005 580.946767 334"></polygon>
+                    <text id="R" fill="#FFF1D9" transform="translate(545.500000, 428.500000) rotate(-8.000000) translate(-545.500000, -428.500000) " font-family="FuturaPT-Medium, Futura PT" font-size="74" font-weight="400" letter-spacing="-3.33">
+                        <tspan x="512" y="454">R</tspan>
+                        <tspan x="548.186" y="454" letter-spacing="-0.296">  </tspan>
+                    </text>
+                    <text id="G" fill="#FFF1D9" transform="translate(614.500000, 273.500000) rotate(-8.000000) translate(-614.500000, -273.500000) " font-family="FuturaPT-Medium, Futura PT" font-size="74" font-weight="400" letter-spacing="-3.33">
+                        <tspan x="581" y="299">G</tspan>
+                        <tspan x="633.022" y="299" letter-spacing="-0.296">  </tspan>
+                    </text>
+                    <text id="B" fill="#FFF1D9" transform="translate(693.500000, 114.500000) rotate(-8.000000) translate(-693.500000, -114.500000) " font-family="FuturaPT-Medium, Futura PT" font-size="74" font-weight="400" letter-spacing="-3.33">
+                        <tspan x="660" y="140">B</tspan>
+                        <tspan x="695.594" y="140" letter-spacing="-0.296">  </tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

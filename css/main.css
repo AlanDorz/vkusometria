@@ -132,12 +132,23 @@ section p {
   height: 1226px;
 }
 
-.section-3__img-meal {
+.section-3__img-colorful_meal {
   position: absolute;
   bottom: 105px;
-  left: 294px;
-  width: 698px;
+  left: 55px;
+  width: 1832px;
   height: 131px;
+  z-index: -1;
+}
+
+.section-3__img-non-colorful_meal {
+  position: absolute;
+  bottom: 655px;
+  left: 1875px;
+  width: 1832px;
+  height: 131px;
+  z-index: -1;
+  transform: rotate(-20deg);
 }
 
 .section-4 {
@@ -148,13 +159,25 @@ section p {
   z-index: -4;
 }
 
-.section-4__img-hungry-man {
+.section-4 div {
+  position: relative;
+}
+
+.section-4__div__img-circle {
   position: absolute;
-  bottom: 20px;
-  left: 83px;
+  bottom: -820px;
+  left: -230px;
   width: 701px;
   height: 702px;
   z-index: -2;
+}
+
+.section-4__div__img-mouth {
+  position: absolute;
+  width: 478px;
+  height: 261px;
+  top: 340px;
+  left: 0px;
 }
 
 .section-4__img-thoughts {
@@ -167,27 +190,241 @@ section p {
   z-index: -1;
 }
 
-.section-4__img-white-meal {
+.section-4__img-5-angle_5 {
   position: absolute;
   bottom: 290px;
   right: 116px;
-  width: 920px;
-  height: 155px;
+  height: 150px;
+  z-index: -2;
+  transform: translateX(0px);
 }
-
-/* .section-4__img-yellow-bg {
+.section-4__img-6-angle_4 {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -3;
-} */
+  bottom: 290px;
+  right: 116px;
+  height: 155px;
+  z-index: -2;
+  transform: translateX(-265px);
+}
+.section-4__img-5-angle_3 {
+  position: absolute;
+  bottom: 290px;
+  right: 116px;
+  height: 150px;
+  z-index: -2;
+  transform: translateX(-500px);
+}
+.section-4__img-6-angle_2 {
+  position: absolute;
+  bottom: 290px;
+  right: 116px;
+  height: 155px;
+  z-index: -2;
+  transform: translateX(-765px);
+}
+.section-4__img-5-angle_1 {
+  position: absolute;
+  bottom: 290px;
+  right: 116px;
+  height: 150px;
+  z-index: -2;
+  transform: translateX(-1000px);
+}
 
 .section-4 h2,
 .section-4 p {
   z-index: 1;
 }
 
+/* ----animation---- */
 
+.section-1:hover img {
+  animation: rotate 5s ease-in-out;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.section-3__img-colorful_meal {
+  animation: moving_1 3s linear infinite
+}
+
+.section-3__img-non-colorful_meal {
+  animation: moving_2 3s linear infinite
+}
+
+@keyframes moving_1 {
+  to {
+    left: -510px;
+  }
+}
+
+@keyframes moving_2 {
+  to {
+    left: 1345px;
+    bottom: 465px;
+  }
+}
+
+.section-4__div__img-mouth {
+  animation: eating 1s ease-in-out 10;
+}
+
+@keyframes eating {
+  50% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.section-4 div {
+  animation: run 4s ease-in-out 2;
+}
+
+@keyframes run {
+  from {
+    transform: translateX(0px);
+    z-index: -1;
+  }
+  75% {
+    transform: translateX(2500px);
+    opacity: 1;
+  }
+  75.1% {
+    opacity: 0;
+    transform: translateX(-1000px);
+  }
+  75.2% {
+    opacity: 1;
+  }
+  to {
+    transform: translateX(0px);
+    z-index: -1;
+  }
+}
+
+.section-4__img-5-angle_1 {
+  animation: disappear_1 4s ease-in-out 2;
+}
+.section-4__img-6-angle_2 {
+  animation: disappear_2 4s ease-in-out 2;
+}
+.section-4__img-5-angle_3 {
+  animation: disappear_3 4s ease-in-out 2;
+}
+.section-4__img-6-angle_4 {
+  animation: disappear_4 4s ease-in-out 2;
+}
+.section-4__img-5-angle_5 {
+  animation: disappear_5 4s ease-in-out 2;
+}
+
+@keyframes disappear_1 {
+  10% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1
+  }
+}
+@keyframes disappear_2 {
+  15% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1
+  }
+}
+@keyframes disappear_3 {
+  15% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1
+  }
+}
+@keyframes disappear_4 {
+  25% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1
+  }
+}
+@keyframes disappear_5 {
+  35% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+/* @keyframes disappear {
+  from {
+    opacity: 1;
+  }
+  1% {
+    opacity: 0;
+  }
+  2% {
+    transition: translateY(-500px);
+  }
+  3% {
+    opacity: 0;
+  }
+  4% {
+    opacity: 1;
+    transform: rotate(90deg);
+  }
+  90% {
+    opacity: 1;
+    transform: rotate(90deg);
+    transition: translateY(-500px);
+  }
+  98% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+    transform: rotate(0);
+  }
+} */
 
 
 

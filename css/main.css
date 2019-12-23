@@ -25,35 +25,39 @@ body {
 
 header {
   height: 1080px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 130px;
-  transform: scale(1.195);
-  width: 100%;
 }
 
 header h1 {
   padding-top: 40vh;
+  font-size: 6.8vw;
+  width: auto;
+  margin: 0 8vw;
 }
 
 header img {
   mix-blend-mode: multiply;
+  transition: all 1.5s ease;
+}
+
+.header__img {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8vw;
+  padding-bottom: -40vh;
+  z-index: -2;
 }
 
 .header__img-b {
-transform: translateX(-98px) translateY(-348px);
+  transform: translateX(0) translateY(-40vh) scale(1);
 }
 .header__img-k {
-transform: translateX(3px) translateY(-158px);
+  transform: translateX(1.5vw) translateY(-15vh) scale(1);
 }
 .header__img-y {
-transform: translateX(85px) translateY(-270px);
+  transform: translateX(0) translateY(-30vh) scale(1);
 }
 .header__img-c {
-transform: translateX(97px) translateY(-241px);
+  transform: translateX(-3vw) translateY(-20vh) scale(1);
 }
 
 section {
@@ -95,7 +99,7 @@ section p {
 .section-2__img-k {
   position: absolute;
   bottom: 85px;
-  right: 1075px;
+  right: 775px;
   width: 1285px;
   height: 1059px;
   z-index: -1;
@@ -107,11 +111,14 @@ section p {
   z-index: -1;
 }
 
+.section-2__img-atom-pieces {
+  transform: translateX(170px) translateY(-490px);
+}
+
 .section-2__img-atom {
   position: absolute;
   top: 125px;
   right: 110px;
-  width: 777px;
   height: 790px;
   z-index: -1;
 }
@@ -256,7 +263,7 @@ section p {
 .section-4__img-5-angle_10 {
   position: absolute;
   bottom: 290px;
-  right: 116px;
+  right: -90px;
   height: 150px;
   z-index: -2;
   transform: translateX(0px);
@@ -265,7 +272,7 @@ section p {
 .section-4__img-6-angle_9 {
   position: absolute;
   bottom: 290px;
-  right: 116px;
+  right: -90px;
   height: 155px;
   z-index: -2;
   transform: translateX(-265px);
@@ -274,7 +281,7 @@ section p {
 .section-4__img-5-angle_8 {
   position: absolute;
   bottom: 290px;
-  right: 116px;
+  right: -90px;
   height: 150px;
   z-index: -2;
   transform: translateX(-500px);
@@ -283,7 +290,7 @@ section p {
 .section-4__img-6-angle_7 {
   position: absolute;
   bottom: 290px;
-  right: 116px;
+  right: -90px;
   height: 155px;
   z-index: -2;
   transform: translateX(-765px);
@@ -292,7 +299,7 @@ section p {
 .section-4__img-5-angle_6 {
   position: absolute;
   bottom: 290px;
-  right: 116px;
+  right: -90px;
   height: 150px;
   z-index: -2;
   transform: translateX(-1000px);
@@ -624,10 +631,43 @@ section p {
 
 /* -----media----- */
 
-@media screen and (min-width: 1440px) and (max-width:1920px) {
+@media (max-width: 1919px) {
+
   header {
-    transform: scale(0.935);
     height: 900px;
+  }
+
+  header h1 {
+    padding-top: 40vh;
+    font-size: 6.97vw;
+    width: auto;
+    margin: 0 7vw;
+  }
+
+  header img {
+    mix-blend-mode: multiply;
+    transition: all 1.5s ease;
+  }
+
+  .header__img {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6.3vw;
+    padding-bottom: -40vh;
+    z-index: -2;
+  }
+
+  .header__img-b {
+    transform: translateX(0) translateY(-40vh) scale(1);
+  }
+  .header__img-k {
+    transform: translateX(2.5vw) translateY(-15vh) scale(1);
+  }
+  .header__img-y {
+    transform: translateX(2vw) translateY(-30vh) scale(1);
+  }
+  .header__img-c {
+    transform: translateX(-3vw) translateY(-20vh) scale(1);
   }
 
   section {
@@ -668,12 +708,12 @@ section p {
   }
 
   .section-2__img-atom-pieces {
-    transform: translateX(282px) translateY(-478px);
+    transform: translateX(372px) translateY(-460px);
   }
 
   .section-2__img-atom {
-    top: 212px;
-    right: -120px;
+    top: 235px;
+    right: 20px;
     height: 592px;
   }
 
@@ -786,8 +826,8 @@ section p {
   .section-4__img-5-angle_3,
   .section-4__img-6-angle_2,
   .section-4__img-5-angle_1 {
-    bottom: 350px;
-    right: 100px;
+    bottom: 340px;
+    right: 20px;
     height: 100px;
   }
 
@@ -829,25 +869,42 @@ section p {
   }
 }
 
-@media screen and (min-width: 1366px) and (max-width:1440px) {
+@media (max-width: 1439px) {
   header {
-    margin-top: 200px;
     height: 768px;
-    font-size: 102px;
-    transform: scale(1);
+  }
+
+  header h1 {
+    padding-top: 40vh;
+    font-size: 7.45vw;
+    width: auto;
+    margin: 0 4vw;
+  }
+
+  header img {
+    mix-blend-mode: multiply;
+    transition: all 1.5s ease;
+  }
+
+  .header__img {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4vw;
+    padding-bottom: -40vh;
+    z-index: -2;
   }
 
   .header__img-b {
-  transform: translateX(35px) translateY(-348px);
+    transform: translateX(0) translateY(-40vh) scale(1);
   }
   .header__img-k {
-  transform: translateX(62px) translateY(-158px);
+    transform: translateX(2.5vw) translateY(-15vh) scale(1);
   }
   .header__img-y {
-  transform: translateX(27px) translateY(-270px);
+    transform: translateX(2vw) translateY(-30vh) scale(1);
   }
   .header__img-c {
-  transform: translateX(892px) translateY(-555px);
+    transform: translateX(-3vw) translateY(-20vh) scale(1);
   }
 
   section {
@@ -893,7 +950,7 @@ section p {
 
   .section-2__img-atom {
     top: 212px;
-    right: -210px;
+    right: 19px;
     height: 592px;
   }
 
@@ -1050,26 +1107,43 @@ section p {
   }
 }
 
-@media screen and (min-width: 1280px) and (max-width:1366px) {
+@media (max-width: 1365px) {
 
   header {
-    margin-top: 200px;
-    height: 800px;
-    font-size: 102px;
-    transform: scale(0.97) ;
+    height: 768px;
+  }
+
+  header h1 {
+    padding-top: 40vh;
+    font-size: 7.864vw;
+    width: auto;
+    margin: 0 1.5vw;
+  }
+
+  header img {
+    mix-blend-mode: multiply;
+    transition: all 1.5s ease;
+  }
+
+  .header__img {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.5vw;
+    padding-bottom: -40vh;
+    z-index: -2;
   }
 
   .header__img-b {
-  transform: translateX(7px) translateY(-348px);
+    transform: translateX(0) translateY(-40vh) scale(0.95);
   }
   .header__img-k {
-  transform: translateX(24px) translateY(-158px);
+    transform: translateX(2.5vw) translateY(-15vh) scale(0.95);
   }
   .header__img-y {
-  transform: translateX(-11px) translateY(-270px);
+    transform: translateX(2vw) translateY(-30vh) scale(0.95);
   }
   .header__img-c {
-  transform: translateX(854px) translateY(-555px);
+    transform: translateX(-4vw) translateY(-20vh) scale(0.95);
   }
 
   section {
@@ -1115,7 +1189,7 @@ section p {
 
   .section-2__img-atom {
     top: 212px;
-    right: -210px;
+    right: 20px;
     height: 592px;
   }
 
@@ -1272,35 +1346,43 @@ section p {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width:1280px) and (orientation: landscape) {
+@media (max-width: 1279px) {
 
   header {
-    margin-top: 200px;
     height: 768px;
-    font-size: 100px;
-    transform: scale(1) ;
   }
 
   header h1 {
-    margin-top: 200px;
+    padding-top: 40vh;
+    font-size: 7.864vw;
+    width: auto;
+    margin: 0 1.5vw;
+  }
+
+  header img {
+    mix-blend-mode: multiply;
+    transition: all 1.5s ease;
   }
 
   .header__img {
-    transform: scale(1) translateX(120px);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.5vw;
+    padding-bottom: -40vh;
     z-index: -2;
   }
 
   .header__img-b {
-  transform: translateX(-100px) translateY(-448px);
+    transform: translateX(-2.3vw) translateY(-40vh) scale(0.75);
   }
   .header__img-k {
-  transform: translateX(-83px) translateY(-258px);
+    transform: translateX(-4.5vw) translateY(-15vh) scale(0.75);
   }
   .header__img-y {
-  transform: translateX(-118px) translateY(-370px);
+    transform: translateX(-12vw) translateY(-30vh) scale(0.75);
   }
   .header__img-c {
-  transform: translateX(727px) translateY(-655px);
+    transform: translateX(-26vw) translateY(-20vh) scale(0.75);
   }
 
   section {
@@ -1347,7 +1429,7 @@ section p {
 
   .section-2__img-atom {
     top: 352px;
-    right: -253px;
+    right: 13px;
     height: 456px;
   }
 
@@ -1504,36 +1586,44 @@ section p {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width:1024px) /*and (orientation: portrait)*/ {
+@media (max-width: 1023px)  {
 
   header {
-    margin-top: 200px;
     height: 1024px;
-    font-size: 97px;
-    transform: scale(1) ;
   }
 
   header h1 {
-    margin-top: 500px;
+    padding-top: 40vh;
+    font-size: 12.2vw;
+    width: auto;
+    margin: 0 2vw;
     line-height: 63px;
   }
 
+  header img {
+    mix-blend-mode: multiply;
+    transition: all 1.5s ease;
+  }
+
   .header__img {
-    transform: scale(0.82);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.5vw;
+    padding-bottom: -40vh;
     z-index: -2;
   }
 
   .header__img-b {
-  transform: translateX(68px) translateY(-648px);
+    transform: translateX(10.4vw) translateY(-52vh) scale(1);
   }
   .header__img-k {
-  transform: translateX(135px) translateY(-584px);
+    transform: translateX(15.5vw) translateY(-46vh) scale(1);
   }
   .header__img-y {
-  transform: translateX(12px) translateY(-560px);
+    transform: translateX(-66vw) translateY(-4vh) scale(1);
   }
   .header__img-c {
-  transform: translateX(337px) translateY(-905px);
+    transform: translateX(-78vw) translateY(4vh) scale(1);
   }
 
   section {
@@ -1557,7 +1647,7 @@ section p {
   }
 
   .section-1 img {
-    left: 0px;
+    left: 20px;
     top: 329px;
     height: 644px;
   }
@@ -1565,6 +1655,10 @@ section p {
   .section-2 {
     padding-top: 219px;
     padding-left: 69px;
+  }
+
+  .section-2__img-k {
+    opacity: 0;
   }
 
   .section-2__img-k_2 {
@@ -1581,7 +1675,7 @@ section p {
 
   .section-2__img-atom {
     top: 492px;
-    right: -233px;
+    right: 11px;
     height: 528px;
   }
 
@@ -1807,39 +1901,47 @@ section p {
   }
 }
 
-@media screen and (min-width: 414px) and (max-width:768px) /*and (orientation: portrait)*/ {
+@media (max-width: 767px)  {
 
   header {
     height: 800px;
-    font-size: 47px;
-    transform: scale(1) ;
-    padding-left: 34px;
   }
 
   header h1 {
-    margin-top: 1200px;
-    line-height: 36px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 40vh;
+    font-size: 12.2vw;
+    width: auto;
+    margin: 0 1.8vw;
+    line-height: 45px;
+    z-index: 1;
+  }
+
+  header img {
+    mix-blend-mode: multiply;
+    transition: all 1.5s ease;
   }
 
   .header__img {
-    transform: scale(0.6) translateY(650px) translateX(-35px);
-    z-index: -2;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.8vw;
+    padding-bottom: -40vh;
+    z-index: -3;
   }
 
   .header__img-b {
-  transform: translateX(-108px) translateY(-1788px);
+    transform: translateX(-8vw) translateY(-59vh) scale(0.7);
   }
   .header__img-k {
-  transform: translateX(165px) translateY(-2014px);
+    transform: translateX(-25vw) translateY(-47vh) scale(0.7);
   }
   .header__img-y {
-  transform: translateX(-128px) translateY(-2000px);
+    transform: translateX(-147vw) translateY(-11vh) scale(0.65);
   }
   .header__img-c {
-  transform: translateX(107px) translateY(-2275px);
+    transform: translateX(-203vw) translateY(3vh) scale(0.65);
   }
+
 
   section {
     font-size: 30px;
@@ -1859,7 +1961,7 @@ section p {
 
   .section-1 {
     padding-top: 96px;
-    padding-left: 34px;
+    padding-left: 14px;
   }
 
   .section-1 img {
@@ -1887,7 +1989,7 @@ section p {
 
   .section-2__img-atom {
     top: 472px;
-    left: -67px;
+    left: 237px;
     height: 318px;
   }
 
@@ -1934,7 +2036,7 @@ section p {
 
   .section-3 {
     padding-top: 490px;
-    padding-left: 34px;
+    padding-left: 14px;
   }
 
   .section-3__img-fabric {
@@ -2112,38 +2214,45 @@ section p {
   }
 }
 
-@media screen and (min-width: 375px) and (max-width:414px) /*and (orientation: portrait)*/ {
+@media (max-width: 414px) and (min-width: 375px)  {
 
   header {
-    height: 800px;
-    font-size: 44px;
-    transform: scale(1) ;
-    padding-left: 14px;
+    height: 650px;
   }
 
   header h1 {
-    margin-top: 1200px;
+    padding-top: 40vh;
+    font-size: 12.2vw;
+    width: auto;
+    margin: 0 1.8vw;
     line-height: 36px;
-    margin-left: auto;
-    margin-right: auto;
+    z-index: 1;
+  }
+
+  header img {
+    mix-blend-mode: multiply;
+    transition: all 1.5s ease;
   }
 
   .header__img {
-    transform: scale(0.6) translateY(650px) translateX(-11px);
-    z-index: -2;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.8vw;
+    padding-bottom: -40vh;
+    z-index: -3;
   }
 
   .header__img-b {
-  transform: translateX(-108px) translateY(-1788px);
+    transform: translateX(-11vw) translateY(-54vh) scale(0.6);
   }
   .header__img-k {
-  transform: translateX(165px) translateY(-2014px);
+    transform: translateX(-36vw) translateY(-47vh) scale(0.6);
   }
   .header__img-y {
-  transform: translateX(-108px) translateY(-2000px);
+    transform: translateX(-169vw) translateY(-13vh) scale(0.55);
   }
   .header__img-c {
-  transform: translateX(107px) translateY(-2255px);
+    transform: translateX(-231vw) translateY(-5vh) scale(0.55);
   }
 
   section {
@@ -2192,7 +2301,7 @@ section p {
 
   .section-2__img-atom {
     top: 472px;
-    left: -107px;
+    left: 196px;
     height: 318px;
   }
 

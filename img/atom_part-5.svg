@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="69px" height="72px" viewBox="0 0 69 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
-    <title>Fill 414</title>
+    <title>atom_part-5</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="IMac-21,5-Copy" transform="translate(-1359.000000, -2836.000000)" fill="#FFF1D9">
-            <g id="atom" transform="translate(1110.000000, 2326.000000)">
-                <polygon id="Fill-414" transform="translate(278.914532, 552.573691) rotate(-13.000000) translate(-278.914532, -552.573691) " points="309.829065 589.147382 248 553.348887 309.805722 516"></polygon>
-            </g>
+        <g id="IMac-21,5-Copy" transform="translate(-1359.000000, -2836.000000)" fill="#FFF3F3">
+            <polygon id="atom_part-5" transform="translate(1388.914532, 2878.573691) rotate(-13.000000) translate(-1388.914532, -2878.573691) " points="1419.82906 2915.14738 1358 2879.34889 1419.80572 2842"></polygon>
         </g>
     </g>
 </svg>

@@ -15,19 +15,19 @@
                     <mask id="mask-2" fill="white">
                         <use xlink:href="#path-1"></use>
                     </mask>
-                    <use id="Mask" fill="#FFF1D9" style="mix-blend-mode: multiply;" transform="translate(283.000003, 282.000001) rotate(-249.000000) translate(-283.000003, -282.000001) " xlink:href="#path-1"></use>
+                    <use id="Mask" fill="#FFF3F3" style="mix-blend-mode: multiply;" transform="translate(283.000003, 282.000001) rotate(-249.000000) translate(-283.000003, -282.000001) " xlink:href="#path-1"></use>
                 </g>
                 <g id="an-apple-copy-8" transform="translate(378.000000, 122.000000)">
                     <mask id="mask-4" fill="white">
                         <use xlink:href="#path-3"></use>
                     </mask>
-                    <use id="Mask" fill="#FFF1D9" style="mix-blend-mode: multiply;" transform="translate(235.000002, 234.500001) rotate(-249.000000) translate(-235.000002, -234.500001) " xlink:href="#path-3"></use>
+                    <use id="Mask" fill="#FFF3F3" style="mix-blend-mode: multiply;" transform="translate(235.000002, 234.500001) rotate(-249.000000) translate(-235.000002, -234.500001) " xlink:href="#path-3"></use>
                 </g>
                 <g id="an-apple-copy-9" transform="translate(36.000000, 382.000000)">
                     <mask id="mask-6" fill="white">
                         <use xlink:href="#path-5"></use>
                     </mask>
-                    <use id="Mask" fill="#FFF1D9" style="mix-blend-mode: multiply;" transform="translate(104.000001, 103.500001) rotate(-249.000000) translate(-104.000001, -103.500001) " xlink:href="#path-5"></use>
+                    <use id="Mask" fill="#FFF3F3" style="mix-blend-mode: multiply;" transform="translate(104.000001, 103.500001) rotate(-249.000000) translate(-104.000001, -103.500001) " xlink:href="#path-5"></use>
                 </g>
             </g>
         </g>

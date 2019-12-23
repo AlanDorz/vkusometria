@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="82px" height="73px" viewBox="0 0 82 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
-    <title>Group 417 Copy</title>
+    <title>atom_part-6</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="IMac-21,5-Copy" transform="translate(-1377.000000, -2763.000000)">
-            <g id="atom" transform="translate(1110.000000, 2326.000000)">
-                <g id="Group-417-Copy" transform="translate(267.000000, 437.000000)">
-                    <polygon id="Fill-414" fill="#FFF1D9" transform="translate(41.010694, 36.495657) rotate(-81.000000) translate(-41.010694, -36.495657) " points="71.9252265 73.0693479 10.0961619 37.270853 71.9018835 -0.07803411"></polygon>
-                    <polygon id="Fill-411" fill="#FFCC66" style="mix-blend-mode: multiply;" transform="translate(37.770022, 56.851159) rotate(-81.000000) translate(-37.770022, -56.851159) " points="27.4554096 20.2741736 48.0612918 20.2807623 48.0846348 93.4281443 27.4787526 93.4215556"></polygon>
-                </g>
+            <g id="atom_part-6" transform="translate(1377.000000, 2763.000000)">
+                <polygon id="Fill-414" fill="#FFF3F3" transform="translate(41.010694, 36.495657) rotate(-81.000000) translate(-41.010694, -36.495657) " points="71.9252265 73.0693479 10.0961619 37.270853 71.9018835 -0.07803411"></polygon>
+                <polygon id="Fill-411" fill="#FFCC66" style="mix-blend-mode: multiply;" transform="translate(37.770022, 56.851159) rotate(-81.000000) translate(-37.770022, -56.851159) " points="27.4554096 20.2741736 48.0612918 20.2807623 48.0846348 93.4281443 27.4787526 93.4215556"></polygon>
             </g>
         </g>
     </g>
